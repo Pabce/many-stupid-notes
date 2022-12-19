@@ -24,3 +24,12 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 - For unbound states: how do you compute spectral functions/removal distributions from the wavefunctions?
 - What exactly are you solving for in the RPA equations? You have to understand RPA better in general, and how it would be relevant to your approach. Can you "add it" to your hamiltonian? Furthermore, why tf is RPA called RPA?
 - Appendix E.2, where THE FUCK does the first equation come from? This is ridiculous and the authors are stupid.
+
+> [!WARNING] Authors are stupid
+
+Authors are stupid!
+
+==Hig==
+
+- [x] Uncheckd 
+- [ ] Checked
