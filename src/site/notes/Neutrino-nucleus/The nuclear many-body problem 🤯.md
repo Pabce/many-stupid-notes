@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Neutrino-nucleus/The nuclear many-body problem 🤯/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/Neutrino-nucleus/The nuclear many-body problem 🤯/"}
 ---
 
 # The nuclear many-body problem 🤯
