@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Neutrino-nucleus/RPA and beyond/"}
+{"dg-publish":true,"permalink":"/neutrino-nucleus/rpa-and-beyond/"}
 ---
 
 # RPA and beyond
