@@ -18,7 +18,6 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 - Why TF are states from 1 to A (i.e., the occupied ones) called hole states?
 - Chapter 11 may be very important for your purposes (restoration of broken symmetries). Or maybe not.
 - How tf do you measure the parity of a nucleus experimentally?
-- Understand how to integrate RPA (or ph correlations in general) into your approach.
 - Are boson expansion methods important for your calculation? Have they been used in other calculations recently?
 - Would an interaction derived from a general potential and solved "exactly" automatically include collective effects? Hmmmm... If not, can I just get the ph-force from density-dependent HF? In any case, does it make sense to include HFB or RPA effects in your initial computation of the shells (like in the paper) if you are going to add the explicit pairing and ph terms to the hamiltonian later? I guess it does, but must think about it.
 - Can Brückner G-matrix be used for 3-body interactions? Check [this](https://inspirehep.net/literature/157319).
