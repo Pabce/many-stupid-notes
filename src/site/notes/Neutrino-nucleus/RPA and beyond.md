@@ -15,7 +15,7 @@ These collective states arise mostly from the long-range part of the nuclear for
 >The **Tamm-Dancoff method** is a first approach to tackling the interaction between ph-pairs. It is superseded by RPA in several ways, mainly in that TD does not take into account these correlations for the ground state, which remains unmodified.
 
 ## RPA equations from linear response theory
-We can find the RPA equations by investigating the influence of a weak external time-dependent field:
+This section is restricted to assuming we are working with a plain HF solution (no quasiparticle spice), but it can be adapted. We can find the RPA (Random Phase Approximation) equations by investigating the influence of a weak external time-dependent field:
 
 $$
 F(t) = F e^{-i\omega t} + F^\dagger e^{i \omega t}.
@@ -32,16 +32,16 @@ $$
 
 Approximations used from now on:
 1. We assume $\rho(t)$ corresponds to a Slater determinant at all time. So it obeys this e.o.m.:
-	$$
-	i \hbar \dot{\rho} = [h[\rho] + f(t), \rho]
-	$$
-	where $h$ is the single-particle HF field.
+    $$
+    i \hbar \dot{\rho} = [h[\rho] + f(t), \rho]
+    $$
+    where $h$ is the single-particle HF field.
 	
 2. The external field is weak, so it introduces only small oscillations around the stationary density $\rho^{(0)}$. We can then write
-	$$
-	\rho(t) = \rho^{(0)} + \delta \rho(t)
     $$
-	with $\delta \rho = \rho^{(1)} e^{ -i \omega t } + \rho^{(1)^{\dagger}} e^{ -i \omega t }$.  Here $\rho^{(1)}$ is the density of the excited states.
+    \rho(t) = \rho^{(0)} + \delta \rho(t)
+    $$
+    with $\delta \rho = \rho^{(1)} e^{ -i \omega t } + \rho^{(1)^{\dagger}} e^{ i \omega t }$.  Here $\rho^{(1)}$ is the density of the excited states.
 
 We work in the HF basis, where $\rho^{(0)}$ is diagonal, meaning:
 $$
@@ -54,9 +54,9 @@ $$
 In [[Hartree-Fock\|Hartree-Fock]] we saw that the condition $\rho^{2}=\rho$ implies that the only non-vanishing elements of $\rho^{(1)}$ are _hp_ and _ph_ elements. 
 We can now expand the e.o.m. to first order in $f$:
 $$
-i \hbar \dot{\rho} = [h_{0}, \delta \rho] + \left[ \frac{\delta h}{\delta \rho} \cdot \delta \rho, \rho^{0} \right] + [f, \rho^{(0)}]
+i \hbar \delta \dot{\rho} = [h_{0}, \delta \rho] + \left[ \frac{\delta h}{\delta \rho} \cdot \delta \rho, \rho^{(0)} \right] + [f, \rho^{(0)}]
 $$
-(we have used some [[Neutrino-nucleus/Notation and more#Commutator properties\|commutator algebra]] here).
+(we have used some [[Neutrino-nucleus/Notation and more#Commutator properties\|commutator algebra]] here). Using the properties of [[Neutrino-nucleus/Notation and more#Densities of Slater determinants\|Slater determinant densities]] we see that the _pp_ and _hh_ components of the above equation vanish. We
 
 ##  QRPA
 This is the most complete way of treating harmonic perturbations, and can be used as a plug-in to [[Neutrino-nucleus/HF-Bogoliubov\|HFB]]
