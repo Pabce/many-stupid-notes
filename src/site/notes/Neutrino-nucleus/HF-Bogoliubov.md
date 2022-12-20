@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Neutrino-nucleus/HF-Bogoliubov/"}
+{"dg-publish":true,"permalink":"/neutrino-nucleus/hf-bogoliubov/"}
 ---
 
 # Hartree-Fock-Bogoliubov
