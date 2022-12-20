@@ -26,11 +26,19 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 - What exactly are you solving for in the RPA equations? You have to understand RPA better in general, and how it would be relevant to your approach. Can you "add it" to your hamiltonian? Furthermore, why tf is RPA called RPA?
 - Appendix E.2, where THE FUCK does the first equation come from? This is ridiculous and the authors are stupid.
 
-> [!WARNING] Authors are stupid
+> [!warning] Authors are stupid.
+Never trust them.
 
-Authors are stupid!
+> [!NOTE] Authors are stupid
 
-==Hig==
+> [!ERROR] Authors are stupid
+
+> [!TIP] Authors are stupid
+
+> [!QUESTION] Authors are stupid
+
+
+==Highlight==
 
 - [x] Uncheckd 
 - [ ] Checked
