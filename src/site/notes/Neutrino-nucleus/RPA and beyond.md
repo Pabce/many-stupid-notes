@@ -32,15 +32,16 @@ $$
 
 Approximations used from now on:
 1. We assume $\rho(t)$ corresponds to a Slater determinant at all time. So it obeys this e.o.m.:
-$$
-i \hbar \dot{\rho} = [h[\rho] + f(t), \rho]
-$$
-where $h$ is the single-particle HF field.
+	$$
+	i \hbar \dot{\rho} = [h[\rho] + f(t), \rho]
+	$$
+	where $h$ is the single-particle HF field.
+	
 2. The external field is weak, so it introduces only small oscillations around the stationary density $\rho^{(0)}$. We can then write
-$$
-\rho(t) = \rho^{(0)} + \delta \rho(t)
-$$
-with $\delta \rho = \rho^{(1)} e^{ -i \omega t } + \rho^{(1)^{\dagger}} e^{ -i \omega t }$.  Here $\rho^{(1)}$ is the density of the excited states.
+	$$
+	\rho(t) = \rho^{(0)} + \delta \rho(t)
+  $$
+	with $\delta \rho = \rho^{(1)} e^{ -i \omega t } + \rho^{(1)^{\dagger}} e^{ -i \omega t }$.  Here $\rho^{(1)}$ is the density of the excited states.
 
 We work in the HF basis, where $\rho^{(0)}$ is diagonal, meaning:
 $$
