@@ -14,4 +14,23 @@ Some common notation we use in [[Neutrino-nucleus/The nuclear many-body problem 
 
 ### Densities of Slater determinants
 >[!tip] Theorem
->A wavefunction $\Psi(1\dots N)$ is a Slater determinant _iff_ it's density matrix $\rho_{\phi}$ is a projector in the single-particle Hilbert space $\iff$ $\rho^{2}_{\Psi}=\rho_{\psi}$
+>A wavefunction $\Psi(1\dots N)$ is a Slater determinant _iff_ it's density matrix $\rho_{\Psi}$ is a projector in the single-particle Hilbert space $\iff$ $\rho^{2}_{\Psi}=\rho_{\Psi}$.
+
+> [!tip] Theorem (Baranger and Veneroni)
+> Any density matrix $\rho$ that belongs to a Slater determinant $(\rho = \rho^{2})$ can be decomposed in the following way: 
+> $$
+> \rho = e^{ i \chi } \rho_{0} e^{ -i \chi }
+> $$
+> Where $\chi$ and $\rho_{0}$ are Hermitian matrices which are even under time reversal.
+
+The above decomposition is unique if:
+1. $\chi$ has only _ph_ and _hp_ matrix elements in the basis in which $\rho_{0}$ is diagonal:
+	$$
+	\rho_{0} \chi \rho_{0} = \sigma_{0}\chi \rho_{0} = 0
+  $$
+($\sigma_{0} =1-\rho_{0}$ projects onto particle states.)
+2. The eigenvalues of $chi$ obey:
+	$$
+	-\frac{\pi}{4} \leq \chi_{\mu} < \frac{\pi}{4}
+  $$
+
