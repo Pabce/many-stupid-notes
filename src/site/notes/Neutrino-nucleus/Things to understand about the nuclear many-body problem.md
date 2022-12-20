@@ -26,7 +26,7 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 - What exactly are you solving for in the RPA equations? You have to understand RPA better in general, and how it would be relevant to your approach. Can you "add it" to your hamiltonian? Furthermore, why tf is RPA called RPA?
 - Appendix E.2, where THE FUCK does the first equation come from? This is ridiculous and the authors are stupid.
 
-> [!warning]- Authors are stupid.
+> [!warning] Authors are stupid.
 > Never trust them.
 
 > [!NOTE] Authors are stupid
@@ -37,8 +37,8 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 
 > [!QUESTION] Authors are stupid
 
-
+All the types of callouts: https://help.obsidian.md/How+to/Use+callouts
 ==Highlight==
 
-- [x] Uncheckd 
+- [x] Unchecked 
 - [ ] Checked
