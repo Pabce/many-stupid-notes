@@ -25,20 +25,27 @@ Some common notation we use in [[Neutrino-nucleus/The nuclear many-body problem 
 
 The above decomposition is unique if:
 1. $\chi$ has only _ph_ and _hp_ matrix elements in the basis in which $\rho_{0}$ is diagonal:
-	$$
-	\rho_{0} \chi \rho_{0} = \sigma_{0}\chi \rho_{0} = 0
     $$
-($\sigma_{0} =1-\rho_{0}$ projects onto particle states.)
+    \rho_{0} \chi \rho_{0} = \sigma_{0}\chi \rho_{0} = 0
+    $$
+    ($\sigma_{0} =1-\rho_{0}$ projects onto particle states.)
 
 2. The eigenvalues of $\chi$ obey:
-	$$
-	-\frac{\pi}{4} \leq \chi_{\mu} < \frac{\pi}{4}
-    $$
+$$
+-\frac{\pi}{4} \leq \chi_{\mu} < \frac{\pi}{4}
+$$
 We are not proving these theorems 🤫.
 
 #### Some rules for calculating with Slater determinant densities
 An arbitrary matrix A has the following "parts" in a basis in which $\rho$ is diagonal:
 $$
-A^{pp}=\sigma A \sigma ; \qquad A^{hh}=\rho A \rho; \qquad A^{ph}=\sigma A \rho ; \qquad A^{hp}=\rho A \sigma.
+A^{pp}=\sigma A \sigma; \qquad A^{hh}=\rho A \rho; \qquad A^{ph}=\sigma A \rho; \qquad A^{hp}=\rho A \sigma.
 $$
+Which obey:
+$$
+A=A \rho + \rho A = \sigma A + A \sigma \iff A^{pp} = A^{hh} =0
+$$
+
+### Densities of HF-BCS and HFB states
+zzz
 
