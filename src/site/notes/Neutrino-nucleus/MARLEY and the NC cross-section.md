@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Neutrino-nucleus/MARLEY and the NC cross-section/"}
+{"dg-publish":true,"permalink":"/neutrino-nucleus/marley-and-the-nc-cross-section/"}
 ---
 
 # MARLEY and the NC cross-section
