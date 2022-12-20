@@ -11,7 +11,8 @@ But there are many excited states that cannot be reproduced by the above. These 
 This is treated in the context of the _residual interaction_, i.e., the difference between the full, many-body potential and the HF mean field. It will give an explanation of high-lying (resonances) and low lying (bound states) collective vibrations. 
 These collective states arise mostly from the long-range part of the nuclear force, i.e., the _particle-hole_ pairing force.
 
-**Note: The Tamm-Dancoff method** is a first approach to tackling the interaction between ph-pairs. It is superseded by RPA in several ways, mainly in that TD does not take into account these correlations for the ground state, which remains unmodified.
+>[!note] Note:
+>The **Tamm-Dancoff method** is a first approach to tackling the interaction between ph-pairs. It is superseded by RPA in several ways, mainly in that TD does not take into account these correlations for the ground state, which remains unmodified.
 
 ## RPA equations from linear response theory
 Bruh
