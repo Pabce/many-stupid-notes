@@ -15,14 +15,14 @@ body {
 div.language-ad-note,
 div.callout-note {
     .admonition-title::before {
-        content: url(./lucide/pencil.svg);
+        content: url(lucide/pencil.svg);
     }
 }
 
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
-        content: "💡";
+        content: url(lucide/lightbulb.svg);
     }
 }
 
