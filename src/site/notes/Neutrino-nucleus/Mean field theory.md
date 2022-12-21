@@ -4,7 +4,8 @@
 
 ## Mean field theory
 ```mermaid
-%%{ init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#BB2528', 'primaryTextColor': '#fff', 'primaryBorderColor': '#7C0000', 'lineColor': '#F8B229', 'secondaryColor': '#006100', 'tertiaryColor': '#fff' } } }%%
+%%{ init: { 'theme': 'base',
+    'themeVariables': { 'background': '#fcba03' } } }%%
     flowchart TD
         id1(No central field!)
         id2(Shell model)
