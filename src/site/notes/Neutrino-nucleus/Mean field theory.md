@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/neutrino-nucleus/mean-field-theory/"}
+{"dg-publish":true,"permalink":"/neutrino-nucleus/mean-field-theory/","dgEnableSearch":false}
 ---
 
 
