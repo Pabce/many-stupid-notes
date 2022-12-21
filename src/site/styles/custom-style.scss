@@ -11,3 +11,10 @@ body {
     //   color: black;
     //  }
 }
+
+div.language-ad-note,
+div.callout-note {
+    .admonition-title::before {
+        content: "dañflskjdaslkf";
+    }
+}
