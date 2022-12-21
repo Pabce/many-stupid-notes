@@ -25,10 +25,10 @@ div.callout-note {
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
-        background-image: url(lucide/pencil.svg);
+        background-image: url(https://github.com/Pabce/many-stupid-notes/blob/main/src/site/styles/lucide/accessibility.svg);
         content: ""; /* This is important to reset the content of the pseudo-element */
-        width: 100em; /* You may need to set the width and height of the pseudo-element to match the size of the image */
-        height: 100em;
+        width: 10em; /* You may need to set the width and height of the pseudo-element to match the size of the image */
+        height: 10em;
     }
 }
 
