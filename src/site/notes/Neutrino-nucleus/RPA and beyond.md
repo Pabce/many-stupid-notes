@@ -56,7 +56,7 @@ We can now expand the e.o.m. to first order in $f$:
 $$
 i \hbar \delta \dot{\rho} = [h_{0}, \delta \rho] + \left[ \frac{\delta h}{\delta \rho} \cdot \delta \rho, \rho^{(0)} \right] + [f, \rho^{(0)}]
 $$
-(we have used some [[Neutrino-nucleus/Notation and more#Commutator properties\|commutator algebra]] here). Using the properties of [[Neutrino-nucleus/Notation and more#Densities of Slater determinants\|Slater determinant densities]] we see that the _pp_ and _hh_ components of the above equation vanish. We 
+(we have used some [[Neutrino-nucleus/Appendix#Commutator properties\|commutator algebra]] here). Using the properties of [[Neutrino-nucleus/Appendix#Densities of Slater determinants\|Slater determinant densities]] we see that the _pp_ and _hh_ components of the above equation vanish. We 
 
 ##  QRPA
 This is the most complete way of treating harmonic perturbations, and can be used as a plug-in to [[Neutrino-nucleus/HF-Bogoliubov\|HFB]]
