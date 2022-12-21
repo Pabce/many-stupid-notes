@@ -39,7 +39,7 @@ $$
 $$
 
 ## Application to Hartree-Fock
-Using microscopic effective forces for Hartree-Fock is straightforward in principle: you just have to swap the antisymmetrized potential $v_{ab,cd}$ by the $G$-matrix elements $G_{ab, cd}^{E}$. It's not so simple in practice, however, as you have to enter a doubly self-consistent procedure:
+Using microscopic effective forces for Hartree-Fock is straightforward in principle: you just have to swap the antisymmetrized potential $\bar{v}_{ab,cd}$ by the $G$-matrix elements $G_{ab, cd}^{E}$. It's not so simple in practice, however, as you have to enter a doubly self-consistent procedure:
 1. Calculate G-matrix in a basis of first choice.
 2. Diagonalize once (i.e., solve the HF equations), given a new basis.
 3. Calculate a new G-matrix in this basis, and so on.
