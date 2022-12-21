@@ -15,7 +15,8 @@ body {
 div.language-ad-note,
 div.callout-note {
     .admonition-title::before {
-        content: url(lucide/pencil.svg);
+        //content: url(lucide/pencil.svg);
+        background-image: url(lucide/pencil.svg);
     }
 }
 
