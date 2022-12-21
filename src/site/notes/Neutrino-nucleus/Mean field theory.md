@@ -4,9 +4,6 @@
 
 ## Mean field theory
 ```mermaid
-%%{ init: { 'theme': 'base',
-    'themeVariables': { 'background': '#fcba03',
-                         'mainBkg': '#fcba03'} } }%%
     flowchart TD
         id1(No central field!)
         id2(Shell model)
