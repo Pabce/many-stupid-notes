@@ -15,6 +15,195 @@ body {
 div.language-ad-note,
 div.callout-note {
     .admonition-title::before {
-        content: "dañflskjdaslkf";
+        content: "<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg>";
+    }
+}
+
+div.language-ad-tip,
+div.callout-tip {
+    .admonition-title::before {
+        content: "💡";
+    }
+}
+
+div.language-ad-warning,
+div.callout-warning {
+    .admonition-title::before {
+        content: "⚠️";
+    }
+}
+
+div.language-ad-important,
+div.callout-important {
+    .admonition-title::before {
+        content: "❗️";
+    }
+}
+
+div.language-ad-caution,
+div.callout-caution {
+    .admonition-title::before {
+        content: "⚠️";
+    }
+}
+
+div.language-ad-info,
+div.callout-info {
+    .admonition-title::before {
+        content: "ℹ";
+    }
+}
+
+div.language-ad-example,
+div.callout-example {
+    .admonition-title::before {
+        content: "🗒️";
+    }
+}
+
+div.language-ad-seealso,
+div.callout-seealso {
+    .admonition-title::before {
+        content: "🖊️";
+    }
+}
+
+div.language-ad-abstract,
+div.callout-abstract {
+    .admonition-title::before {
+        content: '📚'
+    }
+}
+
+div.language-ad-summary,
+div.callout-summary {
+    .admonition-title::before {
+        content: '📚'
+    }
+}
+
+div.language-ad-tldr,
+div.callout-tldr {
+    .admonition-title::before {
+        content: '📚'
+    }
+}
+
+div.language-ad-todo,
+div.callout-todo {
+    .admonition-title::before {
+        content: '☑️'
+    }
+}
+
+div.language-ad-hint,
+div.callout-hint {
+    .admonition-title::before {
+        content: '🔥'
+    }
+}
+
+div.language-ad-success,
+div.callout-success {
+    .admonition-title::before {
+        content: ✅
+    }
+}
+
+div.language-ad-check,
+div.callout-check {
+    .admonition-title::before {
+        content: '✅'
+    }
+}
+
+div.language-ad-done,
+div.callout-done {
+    .admonition-title::before {
+        content: '✅'
+    }
+}
+
+div.language-ad-question,
+div.callout-question {
+    .admonition-title::before {
+        content: '❓'
+    }
+}
+
+div.language-ad-help,
+div.callout-help {
+    .admonition-title::before {
+        content: '❓'
+    }
+}
+
+div.language-ad-faq,
+div.callout-faq {
+    .admonition-title::before {
+        content: '❓'
+    }
+}
+
+div.language-ad-attention,
+div.callout-attention {
+    .admonition-title::before {
+        content: '⚠️'
+    }
+}
+
+div.language-ad-failure,
+div.callout-failure {
+    .admonition-title::before {
+        content: '❌'
+    }
+}
+
+div.language-ad-fail,
+div.callout-fail {
+    .admonition-title::before {
+        content: '❌'
+    }
+}
+
+div.language-ad-missing,
+div.callout-missing {
+    .admonition-title::before {
+        content: '❌'
+    }
+}
+
+div.language-ad-danger,
+div.callout-danger {
+    .admonition-title::before {
+        content: '⚡'
+    }
+}
+
+div.language-ad-error,
+div.callout-error {
+    .admonition-title::before {
+        content: '⚡'
+    }
+}
+
+div.language-ad-bug,
+div.callout-bug {
+    .admonition-title::before {
+        content: '🐞'
+    }
+}
+
+div.language-ad-quote,
+div.callout-quote {
+    .admonition-title::before {
+        content: '💬'
+    }
+}
+
+div.language-ad-cite,
+div.callout-cite {
+    .admonition-title::before {
+        content: '💬'
     }
 }
