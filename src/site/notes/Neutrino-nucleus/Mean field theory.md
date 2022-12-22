@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/neutrino-nucleus/mean-field-theory/"}
 ---
 
-## Mean field theory
+# Mean field theory
+
 ```mermaid
     flowchart TD
         id1(No central field!)
