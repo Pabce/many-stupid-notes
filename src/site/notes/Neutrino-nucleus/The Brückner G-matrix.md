@@ -5,7 +5,7 @@
 # The Brückner G-matrix
 
 The $G$-matrix is our secret weapon for the nuclear many-body problem. In essence, it provides an _in-medium_ strength of interaction given a bare nucleon-nucleon potential.
-The bare nucleon-nucleon force has certain features that are difficult to handle in practice, like a hard core that makes mean field theory methods inapplicable. This bare force can be replaced by an effective interaction, which is an infinite resummation of scattering processes of two nucleons in the nuclear medium. This gets rid of the hard core problem and sums up many-body effects at the same time!
+The bare nucleon-nucleon force has certain features that are difficult to handle in practice, like a hard core that makes [[Neutrino-nucleus/Mean field theory\|mean field theory]] methods inapplicable. This bare force can be replaced by an effective interaction, which is an infinite resummation of scattering processes of two nucleons in the nuclear medium. This gets rid of the hard core problem and sums up many-body effects at the same time!
 
 These _microscopic effective interactions_ can be applied to the interactions between nucleons within a medium, but also to the interactions between valence nucleons and _ph_ interactions.
 (And there are also effective three body forces?)
@@ -16,7 +16,7 @@ T^{E}_{\mathbf{k}_{1} \mathbf{k}_{2}, \mathbf{k'}_{1} \mathbf{k'}_{2}} = \bar{v}
 \frac{1}{E - (\mathbf{p}_{1}^2 / 2m) - (\mathbf{p}_{2}^2 / 2m) + i \eta} T^{E}_{\mathbf{p}_{1} \mathbf{p}_{2}, \mathbf{k'}_{1} \mathbf{k'}_{2}},
 $$
 where $\mathbf{k}_{1}, \mathbf{k}_{2}, \mathbf{k'}_{1}, \mathbf{k'}_{2}$ are the momenta of the incoming and outgoing particles. It makes perfect sense (😂) to define an analogous scattering matrix within the nuclear medium. The plane wave indices for the initial and final states will be replaced with shell model indices, and the kinetic single particle energies by the corresponding shell model energies. Finally, the sum over intermediate states is restricted to levels above the Fermi surface (because two nucleons below the Fermi surface can only scatter into states above it!).
->[!question]  Question
+> [!question]  Question
 > What happens when we use quasiparticles and the Fermi surface is "blurred"?
 
 So here it goes:
