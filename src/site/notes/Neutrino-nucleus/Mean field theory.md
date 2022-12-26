@@ -4,7 +4,6 @@
 
 # Mean field theory
 
-nnknkn
 ```mermaid
     flowchart TD
         id1(No central field!)
