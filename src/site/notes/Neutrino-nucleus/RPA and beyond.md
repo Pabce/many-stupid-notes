@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/neutrino-nucleus/rpa-and-beyond/"}
 ---
 
+
 # RPA and beyond
 Hartree-Fock and all it's extensions (up to [[Neutrino-nucleus/HF-Bogoliubov\|HF-Bogoliubov]] in the most general quasiparticle formalism) are static, independent particle models. By a proper definition of (quasi)particles we can explain the basic properties of the ground states of many nuclei, and also some of their excited states. 
 But there are many other excited states that cannot be reproduced by the above. These missing excitations will be explained by collective, many-body (coherent) correlations within the nucleus:
