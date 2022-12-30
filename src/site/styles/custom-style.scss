@@ -21,8 +21,10 @@ body {
 
 div.language-ad-tip,
 div.callout-tip {
+
     .admonition-title::before {
-        content: <i class="fa fa-fire-flame-curved"></i>; 
+        font-family: "Font Awesome 5 Free";
+        content: "\f7e4";
     }
 }
 
