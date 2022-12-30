@@ -48,4 +48,4 @@ Furthermore, there is a certain ambiguity concerning the energy dependence of th
 
 > [!todo] Expand this
 
-This procedure can be simplified by using the [[Local density approximation\|Local density approximation]], where $G$ ends up depending only on two variables $\mathbf{r}$ and $\mathbf{r'}$.
+This procedure can be simplified by using the [[Neutrino-nucleus/Local density approximation\|Local density approximation]], where $G$ ends up depending only on two variables $\mathbf{r}$ and $\mathbf{r'}$.
