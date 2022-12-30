@@ -22,9 +22,7 @@ body {
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
-        content: " "; 
-        background-image: content("\f7e4");
-        font-family: "Font Awesome 4 Free";
+        content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><circle cx='8' cy='8' r='8' fill='red'/></svg>"); 
     }
 }
 
