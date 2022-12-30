@@ -18,7 +18,7 @@ body {
     padding: 10px;
 }
 
-
+/***
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
@@ -26,8 +26,6 @@ div.callout-tip {
         background-image: url(~lucide-static/icons/home.svg);
     }
 }
-
-/***
 
 div.language-ad-warning,
 div.callout-warning {
