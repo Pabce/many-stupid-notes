@@ -19,11 +19,11 @@ body {
 }
 
 
-div.language-ad-tip,
-div.callout-tip {
-    .admonition-title::before {
-        content: "khj";
-    }
+div.language-ad-tip::before,
+div.callout-tip::before {
+  content: "\e900";
+  font-family: "Lucide Icons";
+  font-style: normal;
 }
 
 /***
