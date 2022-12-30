@@ -18,24 +18,15 @@ body {
     padding: 10px;
 }
 
-/***
-div.language-ad-note,
-div.callout-note {
-    .admonition-title::before {
-        //content: url(lucide/pencil.svg);
-        background-image: url(lucide/pencil.svg);
-    }
-}
 
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
-        background-image: url(https://github.com/Pabce/many-stupid-notes/blob/main/src/site/styles/lucide/accessibility.svg);
-        content: ""; 
-        width: 10em;
-        height: 10em;
+        content: <i class="fa fa-fire-flame-curved"></i>; 
     }
 }
+
+/***
 
 div.language-ad-warning,
 div.callout-warning {
