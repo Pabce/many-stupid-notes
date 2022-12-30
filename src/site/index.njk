@@ -5,14 +5,6 @@
     {%include "components/pageheader.njk"%}
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section">
-    <i icon-name="volume-2" class="my-class"></i>
-    <i icon-name="x"></i>
-    <i icon-name="menu"></i>
-
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-      lucide.createIcons();
-    </script>
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgShowFileTree !== true %}
       {%include "components/navbar.njk"%}
@@ -39,5 +31,14 @@
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
+    
+      <i icon-name="volume-2" class="my-class"></i>
+      <i icon-name="x"></i>
+      <i icon-name="menu"></i>
+
+      <script src="https://unpkg.com/lucide@latest"></script>
+      <script>
+        lucide.createIcons();
+      </script>
     </body>
   </html>
