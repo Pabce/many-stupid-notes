@@ -22,7 +22,8 @@ body {
 div.language-ad-tip,
 div.callout-tip {
     .admonition-title::before {
-        content: "h"
+        content: "";
+        background-image: url(~lucide-static/icons/home.svg);
     }
 }
 
