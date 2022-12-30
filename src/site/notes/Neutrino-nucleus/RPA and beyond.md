@@ -52,7 +52,7 @@ $$
       1 & \text{for holes}
     \end{cases}
 $$
-In [[Hartree-Fock\|Hartree-Fock]] we saw that the condition $\rho^{2}=\rho$ implies that the only non-vanishing elements of $\rho^{(1)}$ are _hp_ and _ph_ elements. 
+In [[Neutrino-nucleus/Hartree-Fock\|Hartree-Fock]] we saw that the condition $\rho^{2}=\rho$ implies that the only non-vanishing elements of $\rho^{(1)}$ are _hp_ and _ph_ elements. 
 We can now expand the e.o.m. to first order in $f$:
 $$
 i \hbar \delta \dot{\rho} = [h_{0}, \delta \rho] + \left[ \frac{\delta h}{\delta \rho} \cdot \delta \rho, \rho^{(0)} \right] + [f, \rho^{(0)}]
