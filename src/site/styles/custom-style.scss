@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-
 body {
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
@@ -23,10 +22,10 @@ body {
 
 div.language-ad-tip,
 div.callout-tip {
-
     .admonition-title::before {
+        content: " "; 
+        background-image: content("\f7e4");
         font-family: "Font Awesome 5 Free";
-        content: "\f7e4";
     }
 }
 
