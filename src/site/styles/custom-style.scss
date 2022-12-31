@@ -13,6 +13,16 @@ body {
 
 }
 
+.admonition-title {
+    font-size: 1.0rem;
+}
+
+div[class*="language-ad-"] .admonition-title::before,
+div[class*="callout-"] .admonition-title::before {
+    font-size: 1.0rem;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
 
 div[class*="language-ad-"],
 div[class*="callout-"] {
