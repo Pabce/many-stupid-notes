@@ -10,10 +10,26 @@ body {
     //  h1 {
     //   color: black;
     //  }
-    --callout-border-width: 50px;
-    --callout-border-opacity: 0.95;
-    --callout-padding: 0 0 0 0;
+
 }
+
+
+div[class*="language-ad-"],
+div[class*="callout-"] {
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    border-radius: 6px;
+    display: block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    outline-color: rgb(230, 230, 230);
+    padding: 0rem;
+    position: relative;
+    transition: height .5s ease-in, opacity .5s ease-in;
+    word-break: break-word;
+    white-space: normal !important;
+}
+
 
 .markdown-preview-view pre.mermaid {
     background: var(--background-primary);
