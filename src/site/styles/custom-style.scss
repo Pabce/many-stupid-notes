@@ -52,6 +52,16 @@ div[class*="callout-"] {
 
 div.language-ad-todo,
 div.callout-todo {
+    .admonition-title::before {
+        content: '☑️';
+    }
+    .admonition-title {
+        font-color: rgba(200, 104, 112, 1);
+    }
+}
+
+div.language-ad-todo,
+div.callout-todo {
     background-color: rgba(0, 184, 212, .3);
     font-color: rgba(200, 104, 112, 1);
 }
