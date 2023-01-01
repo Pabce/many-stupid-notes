@@ -30,7 +30,7 @@ div[class*="callout-"] {
     font-family: 'Roboto', sans-serif;
     word-wrap: break-word;
     border-radius: 6px;
-    display: contents;
+    display: flex;
     font-size: 1rem;
     margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
