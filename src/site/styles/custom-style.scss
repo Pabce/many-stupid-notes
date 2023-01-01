@@ -41,12 +41,12 @@ div[class*="callout-"] {
     white-space: normal !important;
     
     .p {
-        display: block;
+        display: contents;
         margin-block-start: 0em;
         margin-block-end: 0em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        }
+    }
 }
 
 
