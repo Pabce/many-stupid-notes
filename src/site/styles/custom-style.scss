@@ -32,7 +32,7 @@ div[class*="callout-"] {
     border-radius: 6px;
     display: block;
     font-size: 1rem;
-    margin-top: 0rem !important;
+    margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
     padding: 1rem;
     position: relative;
@@ -46,6 +46,12 @@ div[class*="callout-"] {
     background: var(--background-primary);
     border-radius: 25px;
     padding: 10px;
+}
+
+
+div.language-ad-todo,
+div.callout-todo {
+    background-color: rgba(0, 184, 212, .01)
 }
 
 /***
