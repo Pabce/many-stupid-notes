@@ -40,12 +40,19 @@ div[class*="callout-"] {
     word-break: break-word;
     white-space: normal !important;
 
-    &:not(:empty) {
-        padding-bottom: 1rem;
+    &:not(:empty):not(:has(p[data-trimmed=""])) {
+        padding-bottom: 10rem;
     }
 
-    p:empty {
-        padding-bottom: 0;
+    p {
+        &[data-trimmed=""] {
+            padding-bottom: 0;
+        }
+
+        &:before {
+            content: attr(data-trimmed);
+            visibility: hidden;
+        }
     }
 }
 
