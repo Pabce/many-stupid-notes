@@ -30,22 +30,21 @@ div[class*="callout-"] {
     font-family: 'Roboto', sans-serif;
     word-wrap: break-word;
     border-radius: 6px;
-    display: flex;
-    flex-direction: column;
+    display: block;
     font-size: 1rem;
     margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
     padding: 1rem;
-    padding-bottom: 1rem;
     position: relative;
     transition: height .5s ease-in, opacity .5s ease-in;
     word-break: break-word;
     white-space: normal !important;
 
-    &:empty {
-        min-height: 1rem;
+    &:has(p) {
+        padding-bottom: 10rem;
     }
 }
+
 
 
 
