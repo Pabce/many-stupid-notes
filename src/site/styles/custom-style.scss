@@ -40,10 +40,15 @@ div[class*="callout-"] {
     word-break: break-word;
     white-space: normal !important;
 
-    &:empty {
-        padding-bottom: 10rem;
+    &:not(:empty) {
+        padding-bottom: 1rem;
+    }
+
+    p:empty {
+        padding-bottom: 0;
     }
 }
+
 
 
 
