@@ -52,7 +52,7 @@ div[class*="callout-"] {
 
 div.language-ad-todo,
 div.callout-todo {
-  $ccolor: #ff0000;
+  $ccolor: rgb(0, 184, 212);
     
   .admonition-title::before {
     content: '☑️';
