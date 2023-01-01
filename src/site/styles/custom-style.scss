@@ -16,16 +16,13 @@ body {
 .admonition-title {
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-.admonition-content {
-  font-size: 10rem;
+  margin-bottom: 0px;
 }
 
 div[class*="language-ad-"] .admonition-title::before,
 div[class*="callout-"] .admonition-title::before {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-right: 10px;
 }
 
@@ -35,7 +32,7 @@ div[class*="callout-"] {
     word-wrap: break-word;
     border-radius: 6px;
     display: block;
-    // font-size: 1rem;
+    font-size: 1rem;
     margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
     padding: 1rem;
