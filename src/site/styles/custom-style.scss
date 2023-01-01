@@ -18,6 +18,10 @@ body {
   font-weight: bold;
 }
 
+.admonition-content p {
+  font-size: 10rem;
+}
+
 div[class*="language-ad-"] .admonition-title::before,
 div[class*="callout-"] .admonition-title::before {
     font-size: 1.2rem;
@@ -31,7 +35,7 @@ div[class*="callout-"] {
     word-wrap: break-word;
     border-radius: 6px;
     display: block;
-    font-size: 1rem;
+    // font-size: 1rem;
     margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
     padding: 1rem;
@@ -39,7 +43,6 @@ div[class*="callout-"] {
     transition: height .5s ease-in, opacity .5s ease-in;
     word-break: break-word;
     white-space: normal !important;
-    margin-bottom: -1rem;
 }
 
 
