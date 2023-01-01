@@ -193,6 +193,22 @@ module.exports = function(eleventyConfig) {
       return JSON.stringify(variable);
     });
 
+    // CUSTOM CONFIGURATION (BY PABCE)
+    eleventyConfig.addJavaScriptFunction("applyStyles", function() {
+        const paragraphs = document.querySelectorAll("div[class*='language-ad-'] p, div[class*='callout-'] p");
+        paragraphs.forEach(p => {
+          if (p.textContent.trim().length > 0) {
+            p.style.display = "contents";
+            p.style.marginBlockStart = "10em";
+            p.style.marginBlockEnd = "10em";
+            p.style.marginInlineStart = "0px";
+            p.style.marginInlineEnd = "0px";
+          }
+        });
+      });
+    
+    // ---------------------------------------
+
     return {
         dir: {
             input: "src/site",
