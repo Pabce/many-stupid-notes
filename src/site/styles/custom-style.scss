@@ -52,17 +52,17 @@ div[class*="callout-"] {
 
 div.language-ad-todo,
 div.callout-todo {
-    --ccolor: #ff0000;
-   
-    .admonition-title::before {
-        content: '☑️';
-    }
-    
-    .admonition-title {
-        font-color: rgba(var(--ccolor), 1);
-    }
-    
-    background-color: rgba(var(--ccolor), 0.3);
+  --ccolor: #ff0000;
+
+  .admonition-title::before {
+    content: '☑️';
+  }
+  
+  .admonition-title {
+    color: rgba(red(var(--ccolor)), green(var(--ccolor)), blue(var(--ccolor)), 1);
+  }
+  
+  background-color: rgba(red(var(--ccolor)), green(var(--ccolor)), blue(var(--ccolor)), 0.3);
 }
 
 /***
