@@ -39,7 +39,10 @@ div[class*="callout-"] {
     transition: height .5s ease-in, opacity .5s ease-in;
     word-break: break-word;
     white-space: normal !important;
-    
+}
+
+div[class*="language-ad-"]:empty,
+div[class*="callout-"]:empty {
     p {
         display: contents;
         margin-block-start: 0em;
