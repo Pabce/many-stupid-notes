@@ -195,7 +195,7 @@ module.exports = function(eleventyConfig) {
 
     // CUSTOM CONFIGURATION (BY PABCE)
     eleventyConfig.addJavaScriptFunction("applyStyles", function() {
-        const paragraphs = document.querySelectorAll("div[class*='language-ad-'] p, div[class*='callout-'] p");
+        const paragraphs = document.querySelectorAll("div[class*='language-ad-'] .p, div[class*='callout-'] .p");
         paragraphs.forEach(p => {
             console.log("SDADDADASD")
             if (p.textContent.trim().length > 0) {
