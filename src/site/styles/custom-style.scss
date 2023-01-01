@@ -30,7 +30,7 @@ div[class*="callout-"] {
     font-family: 'Roboto', sans-serif;
     word-wrap: break-word;
     border-radius: 6px;
-    display: block;
+    display: contents;
     font-size: 1rem;
     margin-top: 1rem;
     outline-color: rgb(230, 230, 230);
@@ -40,14 +40,7 @@ div[class*="callout-"] {
     word-break: break-word;
     white-space: normal !important;
 
-    &:empty {
-        padding-bottom: 0;
-    }
 }
-
-
-
-
 
 
 .markdown-preview-view pre.mermaid {
