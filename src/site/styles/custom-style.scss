@@ -54,16 +54,7 @@ div.callout-todo {
     
   .admonition-title::before {
     // Add svg image as content
-    content: "";
-    background-image: url(activity.svg);
-    background-size: 1.2rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 1.2rem;
-    height: 1.2rem;
-    display: inline-block;
-    margin-right: 10px;
-
+    background-image: url('activity.svg');
   }
   
   .admonition-title {
