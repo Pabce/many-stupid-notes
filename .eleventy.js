@@ -179,10 +179,21 @@ module.exports = function(eleventyConfig) {
                 return "";
             });
 
-            return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
-                ${titleDiv}
-                ${content}
-            </div>`;
+            //Only add content paragraphs not empty (PABCE)
+            // Strip out the <p> </p> tags
+            naked_content = content.replace(/<p>|<\/p>/g, "");
+            
+            // If naked_content is empty or whitespace...
+            if (naked_content.trim() == "") {
+                return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
+                    ${titleDiv}
+                </div>`;
+            } else {
+                return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
+                    ${titleDiv}
+                    <div class="admonition-content"> ${content} </div>
+                </div>`;
+            }
         });
     });
 
