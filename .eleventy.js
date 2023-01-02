@@ -182,7 +182,7 @@ module.exports = function(eleventyConfig) {
             //Only add content paragraphs not empty (PABCE)
             // Strip out the <p> </p> tags
             naked_content = content.replace(/<p>|<\/p>/g, "");
-            titleDiv = titleDiv.rreplace(/<p>|<\/p>/g, "");
+            titleDiv = titleDiv.replace(/<p>|<\/p>/g, "");
             // If naked_content is empty or whitespace...
             if (naked_content.trim() == "") {
                 return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
