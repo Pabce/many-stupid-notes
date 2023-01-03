@@ -53,8 +53,14 @@ div.callout-todo {
   $ccolor: rgb(4, 122, 255);
     
   .admonition-title::before {
-    // Add svg image as content
-    content: "<img src = 'activity.svg' alt='My Happy SVG'/>"
+    content: "";
+    display: inline-block;
+    width: 24px; /* same as the width of the SVG */
+    height: 24px; /* same as the height of the SVG */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='22 12 18 12 15 21 9 3 6 12 2 12'%3E%3C/polyline%3E%3C/svg%3E");
+    background-size: 24px 24px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .admonition-title {
