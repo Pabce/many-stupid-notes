@@ -9,6 +9,9 @@ const {headerToId, namedHeadingsFilter} = require("./src/helpers/utils")
 
 module.exports = function(eleventyConfig) {
 
+    // PABCE: For local dev, reload the page when the SCSS changes
+    eleventyConfig.addWatchTarget("./src/site/styles/");
+
     let markdownLib = markdownIt({
             breaks: true,
             html: true
