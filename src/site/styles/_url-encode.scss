@@ -13,7 +13,7 @@
 }
   
 $svg-1: svg-factory(#4e97cc);  // Blue
-$svg-2: svg-factory(#2c2c29);  // Black
+$svg-2: svg-factory(#030303);  // Black
   
 // Thanks to Hugo Giraudel for his str-replace function (http://www.sassmeister.com/gist/1b4f2da5527830088e4d)
 @function str-replace($string, $search, $replace: '') {

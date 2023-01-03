@@ -1,4 +1,4 @@
-@use "url-encode";
+@use "url-encode" as u;
 
 body {
     /***
@@ -57,7 +57,7 @@ div.callout-todo {
   .admonition-title::before {
     content: "";
     display: inline-block;
-    background-image: url(url-encode.svg-encode(url-encode.$svg-1));
+    background-image: url(u.svg-encode(u.$svg-2));
   }
   
   .admonition-title {
