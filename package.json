@@ -37,6 +37,6 @@
         "markdown-it-mathjax3": "^4.3.1",
         "markdown-it-plantuml": "^1.4.1",
         "markdown-it-task-checkbox": "^1.0.6",
-        "lucide-static": "^0.1.0"
+        "lucide-static": "^0.104.0"
     }
 }
