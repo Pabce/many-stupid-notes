@@ -57,7 +57,7 @@ div.callout-todo {
   .admonition-title::before {
     content: "";
     display: inline-block;
-    background-image: url(svg-encode($svg-1));
+    //background-image: url(svg-encode(url-encode.$svg-1));
   }
   
   .admonition-title {
