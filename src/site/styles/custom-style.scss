@@ -15,38 +15,66 @@ body {
 
 }
 
-.admonition-title {
-  font-size: 1.2rem;
-  font-weight: bold;
+.markdown-preview-view pre.mermaid {
+    background: var(--background-primary);
+    border-radius: 25px;
+    padding: 10px;
 }
 
-div[class*="language-ad-"] .admonition-title::before,
-div[class*="callout-"] .admonition-title::before {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-
+// Callouts
 div[class*="language-ad-"],
 div[class*="callout-"] {
     font-family: 'Roboto', sans-serif;
     word-wrap: break-word;
-    border-radius: 6px;
+    border-radius: 3px;
     display: block;
     font-size: 1rem;
+
     margin-top: 1rem;
+    
     outline-color: rgb(230, 230, 230);
-    padding: 1rem;
+    padding: 0.7rem;
     position: relative;
     transition: height .5s ease-in, opacity .5s ease-in;
     word-break: break-word;
     white-space: normal !important;
 }
 
-.markdown-preview-view pre.mermaid {
-    background: var(--background-primary);
-    border-radius: 25px;
-    padding: 10px;
+.admonition-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin-left: 0.9rem;
+}
+
+// Modifying this block is special and only works if you have already modified .eleventy.js
+.admonition-content {
+    font-size: 1rem;
+    margin: 1rem;
+    margin-left: 0.9rem;
+}
+
+$icon-size: 1.4rem;
+div[class*="language-ad-"] .admonition-title::before,
+div[class*="callout-"] .admonition-title::before {
+    //font-size: 1.4rem;
+    
+    margin: 0rem;
+    // margin-bottom: 0rem;
+    // margin-right: 0rem;
+    //margin-left: 0.8rem;
+    //margin-top: 1rem;
+
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    top: 4px;
+
+    background-size: $icon-size;
+    height: $icon-size;
+    width: $icon-size;
 }
 
 
@@ -55,214 +83,64 @@ div.callout-todo {
   $ccolor: rgb(4, 122, 255);
     
   .admonition-title::before {
-    content: "";
-    display: inline-block;
-    //background-image: url(u.svg-encode(u.$svg-1));
-    background-size: 1.5rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 1.3rem;
-    height: 1.5rem;
-    margin-right: 0.5rem;
-
+    //content: url(u.svg-encode(u.svg-lucide-check($ccolor)));
+    background-image: url(u.svg-encode(u.svg-lucide-check($ccolor)));
   }
-  
   .admonition-title {
     color: rgba($ccolor, 1);
   }
-  
-  background-color: rgba($ccolor, 0.2);
-}
-
-/***
-div.language-ad-tip,
-div.callout-tip {
-    .admonition-title::before {
-        content: "";
-        background-image: url(~lucide-static/icons/home.svg);
-    }
-}
-
-div.language-ad-warning,
-div.callout-warning {
-    .admonition-title::before {
-        content: "⚠️";
-    }
-}
-
-div.language-ad-important,
-div.callout-important {
-    .admonition-title::before {
-        content: "❗️";
-    }
-}
-
-div.language-ad-caution,
-div.callout-caution {
-    .admonition-title::before {
-        content: "⚠️";
-    }
-}
-
-div.language-ad-info,
-div.callout-info {
-    .admonition-title::before {
-        content: "ℹ";
-    }
-}
-
-div.language-ad-example,
-div.callout-example {
-    .admonition-title::before {
-        content: "🗒️";
-    }
-}
-
-div.language-ad-seealso,
-div.callout-seealso {
-    .admonition-title::before {
-        content: "🖊️";
-    }
-}
-
-div.language-ad-abstract,
-div.callout-abstract {
-    .admonition-title::before {
-        content: '📚'
-    }
-}
-
-div.language-ad-summary,
-div.callout-summary {
-    .admonition-title::before {
-        content: '📚'
-    }
-}
-
-div.language-ad-tldr,
-div.callout-tldr {
-    .admonition-title::before {
-        content: '📚'
-    }
-}
-
-div.language-ad-todo,
-div.callout-todo {
-    .admonition-title::before {
-        content: '☑️'
-    }
-}
-
-div.language-ad-hint,
-div.callout-hint {
-    .admonition-title::before {
-        content: '🔥'
-    }
-}
-
-div.language-ad-success,
-div.callout-success {
-    .admonition-title::before {
-        content: ✅
-    }
-}
-
-div.language-ad-check,
-div.callout-check {
-    .admonition-title::before {
-        content: '✅'
-    }
-}
-
-div.language-ad-done,
-div.callout-done {
-    .admonition-title::before {
-        content: '✅'
-    }
+  background-color: rgba($ccolor, 0.1);
 }
 
 div.language-ad-question,
 div.callout-question {
-    .admonition-title::before {
-        content: '❓'
-    }
+  $ccolor: rgb(224, 222, 113);
+    
+  .admonition-title::before {
+    background-image: url(u.svg-encode(u.svg-lucide-question($ccolor)));
+  }
+  .admonition-title {
+    color: rgba($ccolor, 1);
+  }
+  background-color: rgba($ccolor, 0.1);
 }
 
-div.language-ad-help,
-div.callout-help {
-    .admonition-title::before {
-        content: '❓'
-    }
+div.language-ad-warning,
+div.callout-warning {
+  $ccolor: rgb(233, 151, 63);
+    
+  .admonition-title::before {
+    background-image: url(u.svg-encode(u.svg-lucide-warning($ccolor)));
+  }
+  .admonition-title {
+    color: rgba($ccolor, 1);
+  }
+  background-color: rgba($ccolor, 0.1);
 }
 
-div.language-ad-faq,
-div.callout-faq {
-    .admonition-title::before {
-        content: '❓'
-    }
+div.language-ad-tip,
+div.callout-tip {
+  $ccolor: rgb(83, 223, 221);
+    
+  .admonition-title::before {
+    background-image: url(u.svg-encode(u.svg-lucide-flame($ccolor)));
+  }
+  .admonition-title {
+    color: rgba($ccolor, 1);
+  }
+  background-color: rgba($ccolor, 0.1);
 }
 
-div.language-ad-attention,
-div.callout-attention {
-    .admonition-title::before {
-        content: '⚠️'
-    }
+div.language-ad-note,
+div.callout-note {
+  $ccolor: rgb(4, 122, 255);
+    
+  .admonition-title::before {
+    background-image: url(u.svg-encode(u.svg-lucide-pencil($ccolor)));
+  }
+  .admonition-title {
+    color: rgba($ccolor, 1);
+  }
+  background-color: rgba($ccolor, 0.1);
 }
 
-div.language-ad-failure,
-div.callout-failure {
-    .admonition-title::before {
-        content: '❌'
-    }
-}
-
-div.language-ad-fail,
-div.callout-fail {
-    .admonition-title::before {
-        content: '❌'
-    }
-}
-
-div.language-ad-missing,
-div.callout-missing {
-    .admonition-title::before {
-        content: '❌'
-    }
-}
-
-div.language-ad-danger,
-div.callout-danger {
-    .admonition-title::before {
-        content: '⚡'
-    }
-}
-
-div.language-ad-error,
-div.callout-error {
-    .admonition-title::before {
-        content: '⚡'
-    }
-}
-
-div.language-ad-bug,
-div.callout-bug {
-    .admonition-title::before {
-        content: '🐞'
-    }
-}
-
-div.language-ad-quote,
-div.callout-quote {
-    .admonition-title::before {
-        content: '💬'
-    }
-}
-
-div.language-ad-cite,
-div.callout-cite {
-    .admonition-title::before {
-        content: '💬'
-    }
-}
-
-***/
