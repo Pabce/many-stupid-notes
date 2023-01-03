@@ -1,3 +1,5 @@
+@use "url-encode";
+
 body {
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
@@ -55,12 +57,7 @@ div.callout-todo {
   .admonition-title::before {
     content: "";
     display: inline-block;
-    width: 24px; /* same as the width of the SVG */
-    height: 24px; /* same as the height of the SVG */
-    background-image: url(~lucide-static/icons/home.svg);
-    background-size: 24px 24px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(svg-encode($svg-1));
   }
   
   .admonition-title {
