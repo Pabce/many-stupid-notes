@@ -58,6 +58,13 @@ div.callout-todo {
     content: "  ";
     display: inline-block;
     background-image: url(u.svg-encode(u.$svg-2));
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    
   }
   
   .admonition-title {
