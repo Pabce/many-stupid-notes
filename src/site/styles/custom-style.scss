@@ -55,7 +55,7 @@ div.callout-todo {
   $ccolor: rgb(4, 122, 255);
     
   .admonition-title::before {
-    content: "";
+    content: "  ";
     display: inline-block;
     background-image: url(u.svg-encode(u.$svg-2));
   }
