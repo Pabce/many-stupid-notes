@@ -10,9 +10,8 @@ body {
 }
 
 // Make the MathJax containers horizontally scrollable on mobile
-
 mjx-container {
-    overflow-x: auto;
+    overflow-x: visible;
     overflow-y: visible;
     @media only screen and (hover: none) and (pointer: coarse){
         overflow-x: auto;
@@ -20,7 +19,7 @@ mjx-container {
     }
 }
 
-
+// Set the Mermaid background color equal to the site background
 .markdown-preview-view pre.mermaid {
     background: var(--background-primary);
     border-radius: 25px;
