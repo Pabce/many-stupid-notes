@@ -182,7 +182,7 @@ module.exports = function(eleventyConfig) {
                 return "";
             });
 
-            //Only add content paragraphs not empty (PABCE)
+            // Only add content paragraphs not empty (PABCE)
             // Strip out the <p> </p> tags
             naked_content = content.replace(/<p>|<\/p>/g, "");
             titleDiv = titleDiv.replace(/<p>|<\/p>/g, "");
