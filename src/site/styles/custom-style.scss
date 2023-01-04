@@ -6,8 +6,14 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     overflow-x: auto;
+    //overflow-y: hidden;
+}
+
+mjx-container {
+    overflow-x: auto;
     overflow-y: hidden;
 }
+
 
 .markdown-preview-view pre.mermaid {
     background: var(--background-primary);
