@@ -9,9 +9,15 @@ body {
     //overflow-y: hidden;
 }
 
+// Make the MathJax containers horizontally scrollable on mobile
+
 mjx-container {
     overflow-x: auto;
-    overflow-y: auto;
+    overflow-y: visible;
+    @media only screen and (hover: none) and (pointer: coarse){
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
 }
 
 
