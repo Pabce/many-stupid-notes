@@ -5,13 +5,13 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    overflow-x: auto;
+    //overflow-x: auto;
     //overflow-y: hidden;
 }
 
 mjx-container {
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 
