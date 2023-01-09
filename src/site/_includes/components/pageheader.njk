@@ -1,10 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-<script>https://github.com/Pabce/many-stupid-notes/blob/theme_develop/src/site/_includes/components/pageheader.njk
+<script>
     mermaid.initialize({
         startOnLoad: true,
-        securityLevel: 'loose',
-        theme: 'dark'
     });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -35,3 +33,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 {% favicon './src/site/favicon.svg' %}
+
+{% if metatags %}
+    {% for name, content in metatags %}
+        <meta name="{{ name }}" content="{{ content }}">
+    {% endfor %}
+{% endif %}
