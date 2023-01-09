@@ -16,6 +16,7 @@ T^{E}_{\mathbf{k}_{1} \mathbf{k}_{2}, \mathbf{k'}_{1} \mathbf{k'}_{2}} = \bar{v}
 \frac{1}{E - (\mathbf{p}_{1}^2 / 2m) - (\mathbf{p}_{2}^2 / 2m) + i \eta} T^{E}_{\mathbf{p}_{1} \mathbf{p}_{2}, \mathbf{k'}_{1} \mathbf{k'}_{2}},
 $$
 where $\mathbf{k}_{1}, \mathbf{k}_{2}, \mathbf{k'}_{1}, \mathbf{k'}_{2}$ are the momenta of the incoming and outgoing particles. It makes perfect sense (😂) to define an analogous scattering matrix within the nuclear medium. The plane wave indices for the initial and final states will be replaced with shell model indices, and the kinetic single particle energies by the corresponding shell model energies. Finally, the sum over intermediate states is restricted to levels above the Fermi surface (because two nucleons below the Fermi surface can only scatter into states above it!).
+
 > [!question]  Question
 > What happens when we use quasiparticles and the Fermi surface is "blurred"?
 
@@ -46,6 +47,6 @@ Using microscopic effective forces for Hartree-Fock is straightforward in princi
 
 Furthermore, there is a certain ambiguity concerning the energy dependence of the $G$-matrix within the HF equations.
 
-> [!todo] Expand this
+> [!todo] Expand this!
 
 This procedure can be simplified by using the [[Neutrino-nucleus/Local density approximation\|Local density approximation]], where $G$ ends up depending only on two variables $\mathbf{r}$ and $\mathbf{r'}$.
