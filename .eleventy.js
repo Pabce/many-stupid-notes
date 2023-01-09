@@ -9,14 +9,12 @@ const {headerToId, namedHeadingsFilter} = require("./src/helpers/utils")
 
 module.exports = function(eleventyConfig) {
 
-    // PABCE: For local dev, reload the page when the SCSS changes
-    eleventyConfig.addWatchTarget("./src/site/styles/");
-
     let markdownLib = markdownIt({
             breaks: true,
             html: true
         })
         .use(require("markdown-it-footnote"))
+        .use(require("markdown-it-attrs"))
         .use(require('markdown-it-mathjax3'), {
             tex: {
                 inlineMath: [
@@ -182,21 +180,10 @@ module.exports = function(eleventyConfig) {
                 return "";
             });
 
-            // Only add content paragraphs not empty (PABCE)
-            // Strip out the <p> </p> tags
-            naked_content = content.replace(/<p>|<\/p>/g, "");
-            titleDiv = titleDiv.replace(/<p>|<\/p>/g, "");
-            // If naked_content is empty or whitespace...
-            if (naked_content.trim() == "") {
-                return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
-                    ${titleDiv}
-                </div>`;
-            } else {
-                return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
-                    ${titleDiv}
-                    <div class="admonition-content"> ${content} </div>
-                </div>`;
-            }
+            return `<div class="callout-${calloutType?.toLowerCase()} admonition admonition-example admonition-plugin">
+                ${titleDiv}
+                ${content}
+            </div>`;
         });
     });
 
@@ -206,7 +193,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter('jsonify', function (variable) {
       return JSON.stringify(variable);
     });
-    
 
     return {
         dir: {
