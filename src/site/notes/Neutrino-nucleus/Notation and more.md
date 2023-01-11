@@ -17,3 +17,7 @@ Some common notation we use in [[Neutrino-nucleus/The nuclear many-body problem 
     $$
     and $v$ is the most general from of a two-particle potential.
 
+## Particle-Hole picture
+For many-body systems, it is useful to use basis states that are labeled as deviations/excitations from some reference many body Slater determinant (vs states with N creation operators acting on the vacuum )
+
+
