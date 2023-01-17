@@ -10,7 +10,7 @@
 Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuclear many-body problem 🤯]].
 
 - Lots of things... (check small notebook)
-- Exact meaning of multipole transitions (book, Stephen).
+- ==Exact meaning of multipole transitions (book, Stephen).==
 - How to extract the form factors once you have the wavefunctions.
 - Why TF are states from 1 to A (i.e., the occupied ones) called hole states?
 - Chapter 11 may be very important for your purposes (restoration of broken symmetries). Or maybe not.
@@ -21,7 +21,7 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 - For unbound states: how do you compute spectral functions/removal distributions from the wavefunctions?
 - What exactly are you solving for in the RPA equations? You have to understand RPA better in general, and how it would be relevant to your approach. Can you "add it" to your hamiltonian? Furthermore, why tf is RPA called RPA?
 - Appendix E.2, where THE FUCK does the first equation come from? This is ridiculous and the authors are stupid.
-- Remember what sense does the 4-index potential matrix elements make ??? ($v_{1234}$). Compare to the 1-body operators with 2 indices...
+- What is no-core shell model? What are other "renormalization" schemes I can use instead of the G-matrix?
 
 > [!warning] Authors are stupid.
 > Never trust them.
