@@ -31,6 +31,7 @@ There are mainly three (?) ways that this problem is approached.
 
   Some references:
     - [This old book](http://hadron.physics.fsu.edu/~akbar/NuclearTextBook.pdf) has loads of information on these methods, just for reference.
+    - [This course](https://wikihost.nscl.msu.edu/TalentDFT/doku.php?id=week1) seems excellent also.
     - [This paper](https://arxiv.org/pdf/1808.09138.pdf) using (relativistic) Brückner-HF seems to deal with asymmetric nuclei. This could be important. I think that what they present here is actually an ab-initio method! (why? I forgot)
 
 - **Ab initio** calculations, where starting with "realistic" 2 and 3 body (NN, NNN) potentials, you attempt to solve for the full many-body Hamiltonian (this is not exactly true).
