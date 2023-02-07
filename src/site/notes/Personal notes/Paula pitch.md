@@ -34,7 +34,7 @@ Both these steps require **solving the nucleus**.
 4. There are several solvers...
 
 ## Why tensor networks are promising
-The usual way of solving the nucleus (other than pure ab-initio methods, which are another different road to take) is through incremental improvements of mean field theory:
+The usual way of solving the nucleus (other than pure ab-initio methods, which are another beast in themselves) is through incremental improvements of mean field theory:
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/neutrino-nucleus/mean-field-theory/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
@@ -66,11 +66,21 @@ The usual way of solving the nucleus (other than pure ab-initio methods, which a
 </div></div>
 
 
-In brief summary: you solve for a mean field and then add residual interactions not accountable by this mean field. These can basically be divided into short distance particle-particle (*pp*) correlations and long distance particle-hole (*ph*) correlations.
+In brief summary: you solve for a mean field and then add residual interactions not accountable by this mean field. These can basically be divided into short distance "pairing" particle-particle (*pp*) correlations and long distance particle-hole (*ph*) correlations.
 Adding these extra correlations are essential to describing the excited states of the nucleus (e.g., the vibrational states of the nucleus can only be accounted for by the *ph* correlations).
 
-The
+Some problems that this approach faces, and how our tensor network method deals with them, are:
+- HF-BCS and HF-Bogoliubov, that address the close range pairing nature of the nuclear force, explicitly break particle number conservation and other symmetries. Restoring them can be a pain. The Hamiltonian in the TNP preserves all the symmetries of the problem.
+- The most common method of including *ph* correlations (RPA and friends) provides a good correction for the ground state energy and qualitatively predicts the vibrational states well. However, it does embarrassingly badly 
 
 
 ## What do I have to do, and what does Paula
-adf
+The Hamiltonian used in the TNP is:
+$$
+H=\sum_j \epsilon_j\left(2 L_j^z+\Omega_j\right)-\sum_{j j^{\prime}} G_{j j^{\prime}} L_j^{+} L_{j^{\prime}}^{-}
+$$
+The "free parameters" are the $G_{jj'}$ coefficients, which roughly represent the interaction strengths between the different sites on the 1D lattice. Innocent enough as they seem, they are a nightmare to calculate, and that is my job. All the information about the potential between the nucleons is contained there.
+
+Paula's job is to find a representation for the operators (MPO?) and implement the MPS/DMRG. All the operators are a linear combination of creation and destruction operators for different $j,m$ values.
+
+There is a more sophisticated Hamiltonian in the paper (and it can get more sophisticated still), but the principle is exactly the same.
