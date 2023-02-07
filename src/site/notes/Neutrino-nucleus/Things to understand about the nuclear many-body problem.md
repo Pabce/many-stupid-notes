@@ -34,6 +34,8 @@ Auxiliary note to [[Neutrino-nucleus/The nuclear many-body problem 🤯\|The nuc
 
 > [!QUESTION] Authors are stupid
 
+> [!info] Authors are stupid
+
 All the types of callouts: https://help.obsidian.md/How+to/Use+callouts
 ==Highlight==
 
