@@ -15,7 +15,7 @@
         id7(Brückner-HF)
         
         id1-->|Average phenomenological potential|id2
-        id2-->|Self consistent field from a 2-particle potential|id3
+        id1-->|Self consistent field from a 2-particle potential|id3
         id3-->|"Add pairing (pp) correlations"|id4
         id4-->|Generalize pairing/HF with quasiparticles|id5
         id5-->|"Add long distance (ph) correlations"|id6
