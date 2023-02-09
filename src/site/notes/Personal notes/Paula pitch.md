@@ -78,7 +78,7 @@ Some problems that this approach faces:
 - We usually only include a few levels above and below the Fermi surface, and expanding the configuration space comes with an exponential slowdown of calculations.
 
 How the method in the tensor network paper (TNP) deals with them:
-- The TNP Hamiltonian explicitly preservers all symmetries of the problem.
+- The TNP Hamiltonian explicitly preserves all symmetries of the problem.
 - Citing the paper: "we emphasize that the DMRG approach does not neglect any diagrams and does not rely on particle-hole excitation cutoffs." This is a huge deal for us.
 - The TNP method seems to just destroy huge configuration spaces in a few minutes or seconds, which is also amazing.
 
